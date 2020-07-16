@@ -1,0 +1,32 @@
+{
+  "name": "version-switcher",
+  "version": "1.0.6",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch"
+  },
+  "author": {
+    "name": "Luca Rath-Heel",
+    "email": "luca@sulu.io"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.4.4",
+    "react-popper": "^2.2.3",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
